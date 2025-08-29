@@ -1,0 +1,31 @@
+{
+  "name": "pumpfun-devbuy-impare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.31.1",
+    "@fleekxyz/sdk": "^2.1.0",
+    "@pump-fun/pump-sdk": "^1.18.4",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.2",
+    "@types/bn.js": "^5.2.0",
+    "@types/node": "^22.15.30",
+    "axios": "^1.9.0",
+    "bn.js": "^5.2.2",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "js-sha256": "^0.11.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "undici": "^7.10.0"
+  }
+}
